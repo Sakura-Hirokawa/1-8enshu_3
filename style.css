@@ -1,5 +1,28 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+main {
+  width: 960px;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: thistle;
+}
+
+.item-list {
+  list-style: none;
+}
+
+.item {
+  padding: 20px;
+}
+
+.item:nth-child(odd) {
+  background-color: #828482;
+}
+
+.item:last-child {
+  margin-bottom: 50px;
 }
